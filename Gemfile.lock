@@ -13,18 +13,12 @@ GEM
       activestorage (= 6.1.7.3)
       activesupport (= 6.1.7.3)
       mail (>= 2.7.1)
-      net-imap
-      net-pop
-      net-smtp
     actionmailer (6.1.7.3)
       actionpack (= 6.1.7.3)
       actionview (= 6.1.7.3)
       activejob (= 6.1.7.3)
       activesupport (= 6.1.7.3)
       mail (~> 2.5, >= 2.5.4)
-      net-imap
-      net-pop
-      net-smtp
       rails-dom-testing (~> 2.0)
     actionpack (6.1.7.3)
       actionview (= 6.1.7.3)
@@ -109,7 +103,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.18.0)
+    minitest (5.18.1)
     msgpack (1.7.1)
     net-imap (0.3.6)
       date
@@ -126,7 +120,7 @@ GEM
     public_suffix (5.0.1)
     puma (5.6.5)
       nio4r (~> 2.0)
-    racc (1.7.0)
+    racc (1.7.1)
     rack (2.2.7)
     rack-proxy (0.7.6)
       rack
@@ -144,6 +138,7 @@ GEM
       activerecord (= 6.1.7.3)
       activestorage (= 6.1.7.3)
       activesupport (= 6.1.7.3)
+      bundler (>= 1.15.0)
       railties (= 6.1.7.3)
       sprockets-rails (>= 2.0.0)
     rails-dom-testing (2.0.3)
