@@ -11,6 +11,45 @@
   </head>
 
   <body>
+
+		<%= nav_bar fixed: :top, brand: "Projetinho Blogspot", brand_link: root_url do %>
+			<%= menu_group do %>
+        <%= menu_item "Home", root_path %>
+				<%= drop_down "Products" do %>
+        	<%= menu_item "Latest" %>
+        	<%= menu_item "Top Sellers" %>
+        	<%= drop_down_divider %>
+        	<%= menu_item "Discount Items" %>
+	    	<% end %>
+				
+<%
+=begin%>
+											, latest_products_path
+											, popular_products_path
+											, discounted_products_path  
+<%
+=end
+%>
+        <%= menu_item "About Us" %>
+
+				<%= menu_divider %>
+        
+				<%= menu_item "Contact" %>
+
+<% 
+=begin%>
+											, about_us_path
+											, contact_path
+<%
+=end
+%>
+
+			<% end %>	
+			
+		<% end %>
+		
+		<div class="container">
     <%= yield %>
-  </body>
+		</div>
+	</body>
 </html>
