@@ -3,13 +3,15 @@
 one:
   name: MyString
   email: MyString
+  telephone: 1
   age: 1
   gender: MyString
-  address: MyText
+  address: MyString
 
 two:
   name: MyString
   email: MyString
+  telephone: 1
   age: 1
   gender: MyString
-  address: MyText
+  address: MyString
